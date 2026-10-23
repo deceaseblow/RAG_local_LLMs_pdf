@@ -1,0 +1,27 @@
+# virtual environment and Python cache
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# your documents and everything generated from them
+data/
+data_text/
+data_ocr/
+old_books/
+chroma/
+logs/
+*.log
+
+# output files from the extractor experiments
+test_*.txt
+
+# secrets and local config
+.env
+.streamlit/secrets.toml
+
+# editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
