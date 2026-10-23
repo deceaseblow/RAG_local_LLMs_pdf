@@ -9,7 +9,6 @@ __pycache__/
 data/
 data_text/
 data_ocr/
-old_books/
 chroma/
 logs/
 *.log

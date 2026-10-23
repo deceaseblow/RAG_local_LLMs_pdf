@@ -1,0 +1,10 @@
+page 36 of pdfcoffee.com_the-daria-diaries-ordartzpdf-pdf-free.pdf, DPI 300
+
+pypdf            ok           0 chars     0.0s
+chrome_ocr       ok        1125 chars   264.1s
+tesseract_psm3   ok          51 chars     6.5s
+tesseract_psm11  ok         547 chars     5.5s
+winocr           ok         245 chars     3.4s
+rapidocr         ok         318 chars    36.6s
+easyocr          ok        1031 chars    37.1s
+ollama_vision    ok          85 chars    36.9s
