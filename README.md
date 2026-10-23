@@ -103,7 +103,7 @@ The following engines are supported by `test_extractors.py`, which extracts text
 
 ### Results
 
-Of the engines compared on the Daria PDF, only Chrome's OCR read the handwriting-style fonts well. Tesseract and Windows OCR both mangled them.
+The pages combine colored backgrounds, text over graphics, and decorative handwriting-style fonts. Tesseract and Windows OCR both struggled with this combination and returned garbled or incomplete text. Chrome's OCR was the only engine I tried that read these pages and fonts reliably.
 
 That is why the pipeline uses Chrome's engine through `vellum`.
 
